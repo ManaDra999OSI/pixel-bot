@@ -1,5 +1,3 @@
-import sys
-sys.modules['audioop'] = None  # evita erro em discord.player
 import discord
 from discord import app_commands
 from discord.ext import commands
