@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: pixel-bot
+    env: python
+    startCommand: bash start.sh
+    autoDeploy: true
